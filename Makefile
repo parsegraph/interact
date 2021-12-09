@@ -1,7 +1,10 @@
 DIST_NAME = interact
 
 SCRIPT_FILES = \
-	src/index.ts
+	src/index.ts \
+	src/chainTab.ts \
+	src/Interaction.ts \
+	src/Interactive.ts
 
 all: build lint test coverage esdoc
 
