@@ -16,9 +16,10 @@
   "homepage": "https://github.com/parsegraph/interact#readme",
   "dependencies": {
     "parsegraph-method": "^1.4.10",
-    "parsegraph-window": "^1.7.4"
+    "parsegraph-projector": "^1.6.4"
   },
   "peerDependencies": {
-    "parsegraph-checkglerror": "^1.5.0"
+    "parsegraph-log": "^1.6.1",
+    "parsegraph-checkglerror": "^1.5.1"
   }
 }

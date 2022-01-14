@@ -1,10 +1,10 @@
-import { Component, Keystroke } from "parsegraph-window";
+import { Keystroke } from "parsegraph-input";
 import Interactive from "./Interactive";
 
-export type KeyListener = (event: Keystroke, comp: Component) => boolean;
+export type KeyListener = (event: Keystroke) => boolean;
 
-export type EventListener = (comp: Component) => boolean;
-export type FocusListener = (focused: boolean, comp: Component) => boolean;
+export type EventListener = () => boolean;
+export type FocusListener = (focused: boolean) => boolean;
 
 import Method from "parsegraph-method";
 
@@ -61,12 +61,12 @@ export default class Interaction {
     return this._clickListener != null;
   }
 
-  click(comp: Component): any {
+  click(): any {
     // Invoke the click listener.
     if (!this.hasClickListener()) {
       return;
     }
-    return this._clickListener.call(comp, this);
+    return this._clickListener.call(this);
   }
 
   setKeyListener(listener: KeyListener, thisArg?: object): void {
@@ -81,12 +81,12 @@ export default class Interaction {
     return this._keyListener != null;
   }
 
-  key(event: Keystroke, comp?: Component): any {
+  key(event: Keystroke): any {
     // Invoke the key listener.
     if (!this.hasKeyListener()) {
       return;
     }
-    return this._keyListener.call(event, comp);
+    return this._keyListener.call(event);
   }
 
   setFocusListener(listener: FocusListener, thisArg?: object): void {
@@ -101,17 +101,17 @@ export default class Interaction {
     return this._focusListener != null;
   }
 
-  focus(comp?: Component) {
+  focus() {
     if (!this.hasFocusListener()) {
       return false;
     }
-    return this._focusListener.call(true, comp);
+    return this._focusListener.call(true);
   }
 
-  blur(comp?: Component) {
+  blur() {
     if (!this.hasFocusListener()) {
       return false;
     }
-    return this._focusListener.call(false, comp);
+    return this._focusListener.call(false);
   }
 }
