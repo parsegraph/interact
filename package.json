@@ -84,6 +84,6 @@
   },
   "peerDependencies": {
     "parsegraph-checkglerror": "^1.5.1",
-    "parsegraph-log": "^1.6.1"
+    "parsegraph-log": "^1.7.0"
   }
 }
