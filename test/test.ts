@@ -3,7 +3,7 @@ import {
   chainTabs,
   Interaction,
   Interactive,
-} from "../dist/parsegraph-interact";
+} from "../src/index";
 
 class Interactor implements Interactive {
   _interact: Interaction;
