@@ -1,6 +1,6 @@
 {
   "name": "parsegraph-interact",
-  "version": "1.6.2",
+  "version": "1.6.3",
   "description": "interact",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
