@@ -5517,7 +5517,7 @@ parsegraph-matrix@^1.4.8:
   resolved "https://registry.yarnpkg.com/parsegraph-matrix/-/parsegraph-matrix-1.4.8.tgz#7ad551174641e3a5dde9760102d66c302decad51"
   integrity sha512-yo8K6AGgkVEcQsp1CZisTyhVDeNhKLBqf/TmdtjyMppQKjlARRuqXPV5cO1QnRcEpKCPJKLbowXXlxJKD6di1w==
 
-parsegraph-method@^1.4.10:
+parsegraph-method@^1.4.20:
   version "1.4.20"
   resolved "https://registry.yarnpkg.com/parsegraph-method/-/parsegraph-method-1.4.20.tgz#89097ebded9abab1691365c059fcfd48a0682213"
   integrity sha512-LFqTsUhgN1k6UOBMvbPNL8vBMWeWfP1bBFqcEFbA6iNxt5X7q6XsaOCUAAAB0lf87Wt7rX9Go1HA2PrdO8P7mQ==

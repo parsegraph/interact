@@ -48,7 +48,7 @@
     "nyc": "^15.1.0",
     "openssl": "^1.1.0",
     "parsegraph-input": "^1.6.1",
-    "parsegraph-method": "^1.4.10",
+    "parsegraph-method": "^1.4.20",
     "prettier": "2.1.2",
     "raw-loader": "^4.0.1",
     "source-map-loader": "^1.0.2",
