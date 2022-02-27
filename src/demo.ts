@@ -1,4 +1,4 @@
-import {Interaction} from ".";
+import { Interaction } from ".";
 
 document.addEventListener("DOMContentLoaded", () => {
   const root = document.getElementById("demo");
@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const interact = new Interaction();
 
   const container = document.createElement("div");
-  container.innerHTML = `${interact}`;
+  container.innerHTML = `${JSON.stringify(interact)}`;
   container.style.position = "absolute";
   container.style.left = "0px";
   container.style.top = "0px";
