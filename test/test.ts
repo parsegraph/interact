@@ -1,9 +1,5 @@
 import { assert } from "chai";
-import {
-  chainTabs,
-  Interaction,
-  Interactive,
-} from "../src/index";
+import { chainTabs, Interaction, Interactive } from "../src/index";
 
 class Interactor implements Interactive {
   _interact: Interaction;
