@@ -1,11 +1,13 @@
-import todo from ".";
+import {Interaction} from ".";
 
 document.addEventListener("DOMContentLoaded", () => {
   const root = document.getElementById("demo");
   root.style.position = "relative";
 
+  const interact = new Interaction();
+
   const container = document.createElement("div");
-  container.innerHTML = `${todo()}`;
+  container.innerHTML = `${interact}`;
   container.style.position = "absolute";
   container.style.left = "0px";
   container.style.top = "0px";
