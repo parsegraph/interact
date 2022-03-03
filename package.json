@@ -15,8 +15,8 @@
   },
   "homepage": "https://github.com/parsegraph/interact#readme",
   "dependencies": {
-    "parsegraph-input": "^1.6.3",
-    "parsegraph-method": "^1.4.20"
+    "parsegraph-input": "^1.6.5",
+    "parsegraph-method": "^1.4.22"
   },
   "peerDependencies": {
     "parsegraph-checkglerror": "^1.5.1",
