@@ -19,8 +19,8 @@
     "parsegraph-method": "^1.4.22"
   },
   "peerDependencies": {
-    "parsegraph-checkglerror": "^1.5.1",
-    "parsegraph-log": "^1.7.0"
+    "parsegraph-checkglerror": "^1.5.3",
+    "parsegraph-log": "^1.7.3"
   },
   "devDependencies": {
     "@babel/cli": "^7.17.6",
