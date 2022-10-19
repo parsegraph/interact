@@ -1,6 +1,6 @@
 {
   "name": "parsegraph-interact",
-  "version": "1.6.11",
+  "version": "1.6.12",
   "description": "interact",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
@@ -17,10 +17,6 @@
   "dependencies": {
     "parsegraph-input": "^2.0.6",
     "parsegraph-method": "^1.4.22"
-  },
-  "peerDependencies": {
-    "parsegraph-checkglerror": "^1.5.3",
-    "parsegraph-log": "^1.7.3"
   },
   "devDependencies": {
     "@babel/cli": "^7.17.10",
