@@ -2,6 +2,7 @@ import { Keystroke } from "parsegraph-input";
 import Interactive from "./Interactive";
 
 export type KeyListener = (event: Keystroke) => boolean;
+export type DragListener = (worldX:number, worldY:number, dx:number, dy:number) => boolean;
 
 export type EventListener = () => boolean;
 export type FocusListener = (focused: boolean) => boolean;
@@ -12,6 +13,7 @@ export default class Interaction {
   _ignoresMouse: boolean;
   _keyListener: Method<KeyListener>;
   _clickListener: Method<EventListener>;
+  _dragListener: Method<DragListener>;
   _focusListener: Method<FocusListener>;
   _prevInteractive: Interactive;
   _nextInteractive: Interactive;
@@ -21,6 +23,7 @@ export default class Interaction {
     this._keyListener = null;
     this._clickListener = null;
     this._focusListener = null;
+    this._dragListener = null;
     this._prevInteractive = null;
     this._nextInteractive = null;
   }
@@ -40,6 +43,25 @@ export default class Interaction {
     }
     this._clickListener = new Method(listener, thisArg || this);
     // console.log("Set click listener for node " + this._id);
+  }
+
+  setDragListener(listener: DragListener, thisArg?: object): void {
+    if (!listener) {
+      this._dragListener = null;
+      return;
+    }
+    this._dragListener = new Method(listener, thisArg || this);
+  }
+
+  hasDragListener(): boolean {
+    return this._dragListener != null;
+  }
+
+  drag(worldX: number, worldY: number, dx: number, dy:number):boolean {
+    if (!this.hasDragListener()) {
+      return false;
+    }
+    return this._dragListener.call(worldX, worldY, dx, dy);
   }
 
   isClickable(): boolean {
