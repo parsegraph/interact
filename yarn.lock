@@ -3817,10 +3817,10 @@ parsegraph-fuzzyequals@^1.4.9:
   resolved "https://registry.yarnpkg.com/parsegraph-fuzzyequals/-/parsegraph-fuzzyequals-1.4.9.tgz#a46209e2c8ae5b261827c2a346463f871b61fe59"
   integrity sha512-JQlNZ3Pp8aa3YyKcsXZHoOT4PaO1/FIHsROIclEK4lwhuBFmLGjqGr8/WRq383yLs3WJ8iqDShvqb2yQVFPKIA==
 
-parsegraph-input@^2.0.6:
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/parsegraph-input/-/parsegraph-input-2.0.6.tgz#90466daf97226f475f2097678706d725d917b35c"
-  integrity sha512-57G3GPUarT4XNbKl5ys0BMn+p7ExTXjNYgDjxS1U+ifMnnhrzyoIROciUKH5xU6Xg9upiKbW0zEH9JVh9xTEwQ==
+parsegraph-input@^2.0.7:
+  version "2.0.7"
+  resolved "https://registry.yarnpkg.com/parsegraph-input/-/parsegraph-input-2.0.7.tgz#6d78b36b9c496b8aec574fec43db342d7cdb2a2d"
+  integrity sha512-pzodcsTbRjy1zNDNqVx1bUCuyL5VZHr/1VpxpBz+z96TPYSOW++zHIo10kJkZ/EOnfprkeVSH7uuskzdQmiOgQ==
   dependencies:
     parsegraph-fuzzyequals "^1.4.9"
     parsegraph-matrix "^1.4.12"
