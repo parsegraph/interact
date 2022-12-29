@@ -69,9 +69,6 @@ export default class Interaction {
   }
 
   setIgnoreMouse(value: boolean): void {
-    if (!value) {
-      return;
-    }
     this._ignoresMouse = value;
   }
 
