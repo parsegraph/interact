@@ -17,6 +17,7 @@ export default class Interaction {
   _focusListener: Method<FocusListener>;
   _prevInteractive: Interactive;
   _nextInteractive: Interactive;
+  _immediateClick: boolean;
 
   constructor() {
     this._ignoresMouse = false;
@@ -26,6 +27,7 @@ export default class Interaction {
     this._dragListener = null;
     this._prevInteractive = null;
     this._nextInteractive = null;
+    this._immediateClick = false;
   }
 
   nextInteractive() {
@@ -74,6 +76,14 @@ export default class Interaction {
 
   ignoresMouse(): boolean {
     return this._ignoresMouse;
+  }
+
+  setImmediateClick(value: boolean): void {
+    this._immediateClick = value;
+  }
+
+  immediateClick(): boolean {
+    return this._immediateClick;
   }
 
   hasClickListener(): boolean {
