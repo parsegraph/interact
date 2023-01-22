@@ -16,7 +16,7 @@
   "homepage": "https://github.com/parsegraph/interact#readme",
   "dependencies": {
     "parsegraph-input": "^2.0.8",
-    "parsegraph-method": "^1.4.23"
+    "parsegraph-method": "^1.4.24"
   },
   "devDependencies": {
     "@babel/cli": "^7.20.7",
