@@ -3913,21 +3913,21 @@ parse5@^7.0.0, parse5@^7.1.1:
   dependencies:
     entities "^4.4.0"
 
-parsegraph-fuzzyequals@^1.4.12:
+parsegraph-fuzzyequals@^1.4.13:
   version "1.4.13"
   resolved "https://registry.yarnpkg.com/parsegraph-fuzzyequals/-/parsegraph-fuzzyequals-1.4.13.tgz#4012ee7d7e0c0941d74f6ddfb319bb85e8c52472"
   integrity sha512-xwYwLNLPfW3dG5SnttK47BPmERztlbmZe42ivTjV4N5UJMwdQ+CozArqywJklxf9XAgo7WtyNTAVYgqRU3EqyA==
 
-parsegraph-input@^2.0.11:
-  version "2.0.11"
-  resolved "https://registry.yarnpkg.com/parsegraph-input/-/parsegraph-input-2.0.11.tgz#bf18fae80887ca9b3f61369851dd8f483c73acc2"
-  integrity sha512-+9oGfwbUj80LV75tw9awlO3ec7U5LEf+8UVPYPVtYwuWyDs3fA8cC+SgE2wZ9r6Em+bdsSG0PeT1xFzH+VJE+A==
+parsegraph-input@^2.0.12:
+  version "2.0.12"
+  resolved "https://registry.yarnpkg.com/parsegraph-input/-/parsegraph-input-2.0.12.tgz#f2f91d203ac09a5c02cf8b86739f232cc3058c98"
+  integrity sha512-oFfHgbHo+Nd19YxjJZUensF9o6Txc8Hmyv9B70JXKIXQwcR4t3xpRsWPRqPf6T38zqgUMQszhLTPGPyGbO3hMg==
   dependencies:
-    parsegraph-fuzzyequals "^1.4.12"
-    parsegraph-matrix "^1.4.15"
-    parsegraph-normalizewheel "^1.4.9"
+    parsegraph-fuzzyequals "^1.4.13"
+    parsegraph-matrix "^1.4.16"
+    parsegraph-normalizewheel "^1.4.10"
 
-parsegraph-matrix@^1.4.15:
+parsegraph-matrix@^1.4.16:
   version "1.4.16"
   resolved "https://registry.yarnpkg.com/parsegraph-matrix/-/parsegraph-matrix-1.4.16.tgz#fdd73c1dd51620359a53a7bc105ea0eb681cfbf8"
   integrity sha512-eMyYggFEY+k6xEswZu5OnbrXh9LKiBPJETOfGp53qL/Qm84Or1nrMAGt9d4Y6PEQvq1T2kLd6LuKBQF2ijIGbw==
@@ -3937,7 +3937,7 @@ parsegraph-method@^1.4.26:
   resolved "https://registry.yarnpkg.com/parsegraph-method/-/parsegraph-method-1.4.26.tgz#ce3cd94f916817f433328769bf66fe04465ae5ae"
   integrity sha512-ybmHDWgoEfzTT0vSTJLfKsqv2Ug/QBkVm+Qz81wwraEZJ8bPxTgdYIVYxdFZv1tpAB3j5OTlnMEQKPBB7XR/bQ==
 
-parsegraph-normalizewheel@^1.4.9:
+parsegraph-normalizewheel@^1.4.10:
   version "1.4.10"
   resolved "https://registry.yarnpkg.com/parsegraph-normalizewheel/-/parsegraph-normalizewheel-1.4.10.tgz#4c7a774223e5804ec30c167b21f240ec8c3fef85"
   integrity sha512-Iz7WqcMgJDbXNbJnN9uWV2xI8txXbiVWarzDflyL98t+Z4Fx8rYZ/n7RHKeJBw/K0mlC4UkzZHkbfyyPakHlbQ==
